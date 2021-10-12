@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import MainComponent from '../../components/mainComponent';
-import grandFatherList from '../../jsondata/grandFatherList';
+import grandFatherList from '../../jsondata/grandFatherList.json';
 
 const sonDetail = (props) => {
     const router = useRouter();

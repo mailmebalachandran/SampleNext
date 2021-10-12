@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import grandFatherList from '../../jsondata/grandFatherList';
+import grandFatherList from '../../jsondata/grandFatherList.json';
 import MainComponent from '../../components/mainComponent';
 
 const grandFatherMain = () => {
