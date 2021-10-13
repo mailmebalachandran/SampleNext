@@ -1,6 +1,8 @@
 [
     {
-        "name": "Sundararaj Pillai",
+        "name": "Sundarraj Pillai",
+        "familyName": "GJK Family",
+        "familyDescription": "Nothing is better than going home to family and eating good food and relaxing.",
         "age": 95,
         "isAlive": false,
         "wifeName": "Kanagarathinam",
@@ -9,25 +11,119 @@
                 "name": "Ganesan",
                 "age": 65,
                 "isAlive": true,
-                "wifeName": "Saraswathi"
+                "wifeName": "Saraswathi",
+                "sons": [
+                    {
+                        "name": "Rajkumar",
+                        "age": 40,
+                        "isAlive": true,
+                        "wifeName": "Sreelekha"
+                    },
+                    {
+                        "name": "Aranganathan",
+                        "age": 37,
+                        "isAlive": true,
+                        "wifeName": "Theriyala"
+                    },
+                    {
+                        "name": "Pandiyarajan",
+                        "age": 35,
+                        "isAlive": true,
+                        "wifeName": "Theriyala"
+                    }
+                ],
+                "daughters": []
             },
             {
                 "name": "Jeyabal",
                 "age": 62,
                 "isAlive": true,
-                "wifeName": "Madhavi"
+                "wifeName": "Madhavi",
+                "daughters": [
+                    {
+                        "name": "Priya",
+                        "age": 35,
+                        "isAlive": true,
+                        "husbandName": "JeyaShankar"
+                    },
+                    {
+                        "name": "Divya",
+                        "age": 33,
+                        "isAlive": true,
+                        "husbandName": "Sairam"
+                    }
+                ],
+                "sons": []
             },
             {
                 "name": "Kanagasundaram",
                 "age": 60,
                 "isAlive": true,
-                "wifeName": "Nagarathinam"
+                "wifeName": "Nagarathinam",
+                "sons": [
+                    {
+                        "name": "Balachandran",
+                        "age": 31,
+                        "isAlive": true,
+                        "wifeName": "Geetha Devi"
+                    }
+                ],
+                "daughters": [
+                    {
+                        "name": "Keerthana",
+                        "age": 27,
+                        "isAlive": true,
+                        "husbandName": "Kalidass"
+                    }
+                ]
             },
             {
                 "name": "Krishnamoorthi",
                 "age": 56,
                 "isAlive": true,
-                "wifeName": "Vimala"
+                "wifeName": "Vimala",
+                "sons": [
+                    {
+                        "name": "RamKumar",
+                        "age": 20,
+                        "isAlive": true,
+                        "wifeName": "Bachelor"
+                    }
+                ],
+                "daughters": [
+                    {
+                        "name": "Indu Kirthiga",
+                        "age": 29,
+                        "isAlive": true,
+                        "husbandName": "Theriyala"
+                    },
+                    {
+                        "name": "Megala",
+                        "age": 27,
+                        "isAlive": true,
+                        "husbandName": "Theriyala"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Lalitha",
+                "age": 68,
+                "isAlive": true,
+                "husbandName": "Palaniyandi"
+            },
+            {
+                "name": "Shanthi",
+                "age": 50,
+                "isAlive": true,
+                "husbandName": "Rajalingam"
+            },
+            {
+                "name": "Sivagami",
+                "age": 45,
+                "isAlive": true,
+                "husbandName": "Velumayil"
             }
         ]
     },
@@ -35,6 +131,8 @@
         "name": "Amirtham Pillai",
         "age": 85,
         "isAlive": true,
-        "wifeName": "Palaniammal"
+        "wifeName": "Palaniammal",
+        "familyName": "NPV Family",
+        "familyDescription": "To us, family means putting your arms around each other and being there."
     }
 ]

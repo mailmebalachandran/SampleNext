@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import grandFatherList from '../../jsondata/grandFatherList.json';
 import MainComponent from '../../components/mainComponent';
+import BreadcrumbComponent from '../../components/breadcrumbComponent';
 
 const grandFatherMain = () => {
     const router = useRouter();
@@ -19,8 +20,11 @@ const grandFatherMain = () => {
             setSelected(filteredData[0]);
         }
     }, [grandfather]);
-    return <MainComponent selected={selected} ></MainComponent>
-    
+    return <div>
+        <BreadcrumbComponent></BreadcrumbComponent>
+        <MainComponent selected={selected} ></MainComponent>
+    </div>
+
 }
 
 export default grandFatherMain;
